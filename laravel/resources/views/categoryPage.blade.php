@@ -14,7 +14,7 @@ grid-gap: 10px;">
             {{ $book->author }}
             <br>
             {{-- <p class="card-text"> {{ $b->synopsis }} </p> --}}
-            <a href="detail/{{ $book->id }}" class="btn btn-primary">Detail</a>
+            <a href="/detail/{{ $book->id }}" class="btn btn-primary">Detail</a>
         </div>
     </div>
     @endforeach
